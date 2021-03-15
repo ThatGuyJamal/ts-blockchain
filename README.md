@@ -1,6 +1,6 @@
 # Typescript BlockChain
 
-A simple blockChain for learning purposes.
+A simple blockChain for learning purposes, made in TypeScript.
 
 ## How to run:
 
