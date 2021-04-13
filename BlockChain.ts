@@ -4,7 +4,7 @@
 
 import * as crypto from "crypto";
 
-// Transfer of funds between two wallets
+// Transfer of funds between two walletime
 class Transaction {
   constructor(
     public amount: number,
@@ -24,7 +24,7 @@ class Block {
   constructor(
     public prevHash: string,
     public transaction: Transaction,
-    public ts = Date.now()
+    public time = Date.now()
   ) {}
 
   get hash() {
