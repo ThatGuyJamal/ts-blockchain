@@ -16,6 +16,6 @@
     "dev": "tsc -w",
     "start": "tsc && node .",
     "lint": "prettier --write .",
-	"js-node": "node ./test/this.js"
+    "js-chain": "node ./test/chain.js"
   }
 }
