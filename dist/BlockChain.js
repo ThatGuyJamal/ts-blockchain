@@ -112,10 +112,18 @@ class Wallet {
     }
 }
 // Example usage
-const satoshi = new Wallet();
-const bob = new Wallet();
-const alice = new Wallet();
-satoshi.sendMoney(50, bob.publicKey);
-bob.sendMoney(23, alice.publicKey);
-alice.sendMoney(5, bob.publicKey);
+const test_user1 = new Wallet();
+const test_user2 = new Wallet();
+const test_user3 = new Wallet();
+const test_user4 = new Wallet();
+const test_user5 = new Wallet();
+const test_user6 = new Wallet();
+const test_user7 = new Wallet();
+test_user1.sendMoney(50, test_user1.publicKey);
+test_user2.sendMoney(23, test_user2.publicKey);
+test_user3.sendMoney(6, test_user3.publicKey);
+test_user4.sendMoney(53, test_user4.publicKey);
+test_user5.sendMoney(9, test_user5.publicKey);
+test_user6.sendMoney(2, test_user6.publicKey);
+test_user7.sendMoney(29, test_user7.publicKey);
 console.log(Chain.instance);
